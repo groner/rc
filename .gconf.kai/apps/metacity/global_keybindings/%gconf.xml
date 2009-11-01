@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="switch_windows" mtime="1257034806" schema="/schemas/apps/metacity/global_keybindings/switch_windows" type="string">
+		<stringvalue>&lt;Mod4&gt;Tab</stringvalue>
+	</entry>
+	<entry name="switch_to_workspace_up" mtime="1257034806" schema="/schemas/apps/metacity/global_keybindings/switch_to_workspace_up" type="string">
+		<stringvalue></stringvalue>
+	</entry>
+	<entry name="switch_to_workspace_right" mtime="1257034806" schema="/schemas/apps/metacity/global_keybindings/switch_to_workspace_right" type="string">
+		<stringvalue>&lt;Mod4&gt;Right</stringvalue>
+	</entry>
+	<entry name="switch_to_workspace_left" mtime="1257034806" schema="/schemas/apps/metacity/global_keybindings/switch_to_workspace_left" type="string">
+		<stringvalue>&lt;Mod4&gt;Left</stringvalue>
+	</entry>
+	<entry name="switch_to_workspace_down" mtime="1257034806" schema="/schemas/apps/metacity/global_keybindings/switch_to_workspace_down" type="string">
+		<stringvalue></stringvalue>
+	</entry>
+	<entry name="switch_to_workspace_9" mtime="1257034806" schema="/schemas/apps/metacity/global_keybindings/switch_to_workspace_9" type="string">
+		<stringvalue>&lt;Mod4&gt;9</stringvalue>
+	</entry>
+	<entry name="switch_to_workspace_8" mtime="1257034806" schema="/schemas/apps/metacity/global_keybindings/switch_to_workspace_8" type="string">
+		<stringvalue>&lt;Mod4&gt;8</stringvalue>
+	</entry>
+	<entry name="switch_to_workspace_7" mtime="1257034806" schema="/schemas/apps/metacity/global_keybindings/switch_to_workspace_7" type="string">
+		<stringvalue>&lt;Mod4&gt;7</stringvalue>
+	</entry>
+	<entry name="switch_to_workspace_6" mtime="1257034806" schema="/schemas/apps/metacity/global_keybindings/switch_to_workspace_6" type="string">
+		<stringvalue>&lt;Mod4&gt;6</stringvalue>
+	</entry>
+	<entry name="switch_to_workspace_5" mtime="1257034806" schema="/schemas/apps/metacity/global_keybindings/switch_to_workspace_5" type="string">
+		<stringvalue>&lt;Mod4&gt;5</stringvalue>
+	</entry>
+	<entry name="switch_to_workspace_4" mtime="1257034806" schema="/schemas/apps/metacity/global_keybindings/switch_to_workspace_4" type="string">
+		<stringvalue>&lt;Mod4&gt;4</stringvalue>
+	</entry>
+	<entry name="switch_to_workspace_3" mtime="1257034806" schema="/schemas/apps/metacity/global_keybindings/switch_to_workspace_3" type="string">
+		<stringvalue>&lt;Mod4&gt;3</stringvalue>
+	</entry>
+	<entry name="switch_to_workspace_2" mtime="1257034806" schema="/schemas/apps/metacity/global_keybindings/switch_to_workspace_2" type="string">
+		<stringvalue>&lt;Mod4&gt;2</stringvalue>
+	</entry>
+	<entry name="switch_to_workspace_10" mtime="1257034806" schema="/schemas/apps/metacity/global_keybindings/switch_to_workspace_10" type="string">
+		<stringvalue>&lt;Mod4&gt;0</stringvalue>
+	</entry>
+	<entry name="switch_to_workspace_1" mtime="1257034806" schema="/schemas/apps/metacity/global_keybindings/switch_to_workspace_1" type="string">
+		<stringvalue>&lt;Mod4&gt;1</stringvalue>
+	</entry>
+	<entry name="switch_panels" mtime="1257034806" schema="/schemas/apps/metacity/global_keybindings/switch_panels" type="string">
+		<stringvalue>&lt;Control&gt;&lt;Mod4&gt;Tab</stringvalue>
+	</entry>
+	<entry name="show_desktop" mtime="1257034806" schema="/schemas/apps/metacity/global_keybindings/show_desktop" type="string">
+		<stringvalue></stringvalue>
+	</entry>
+	<entry name="run_command_terminal" mtime="1257034806" schema="/schemas/apps/metacity/global_keybindings/run_command_terminal" type="string">
+		<stringvalue>&lt;Mod4&gt;Return</stringvalue>
+	</entry>
+	<entry name="panel_run_dialog" mtime="1257034806" schema="/schemas/apps/metacity/global_keybindings/panel_run_dialog" type="string">
+		<stringvalue>&lt;Mod4&gt;F2</stringvalue>
+	</entry>
+	<entry name="panel_main_menu" mtime="1257034806" schema="/schemas/apps/metacity/global_keybindings/panel_main_menu" type="string">
+		<stringvalue>&lt;Mod4&gt;F1</stringvalue>
+	</entry>
+	<entry name="cycle_windows" mtime="1257034806" schema="/schemas/apps/metacity/global_keybindings/cycle_windows" type="string">
+		<stringvalue></stringvalue>
+	</entry>
+	<entry name="cycle_panels" mtime="1257034806" schema="/schemas/apps/metacity/global_keybindings/cycle_panels" type="string">
+		<stringvalue></stringvalue>
+	</entry>
+	<entry name="cycle_group" mtime="1257034806" schema="/schemas/apps/metacity/global_keybindings/cycle_group" type="string">
+		<stringvalue></stringvalue>
+	</entry>
+</gconf>

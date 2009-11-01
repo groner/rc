@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="unmaximize" mtime="1257034806" schema="/schemas/apps/metacity/window_keybindings/unmaximize" type="string">
+		<stringvalue></stringvalue>
+	</entry>
+	<entry name="toggle_maximized" mtime="1257034806" schema="/schemas/apps/metacity/window_keybindings/toggle_maximized" type="string">
+		<stringvalue>&lt;Mod4&gt;Page_Up</stringvalue>
+	</entry>
+	<entry name="toggle_fullscreen" mtime="1257034806" schema="/schemas/apps/metacity/window_keybindings/toggle_fullscreen" type="string">
+		<stringvalue>&lt;Shift&gt;&lt;Mod4&gt;Page_Up</stringvalue>
+	</entry>
+	<entry name="raise" mtime="1257034806" schema="/schemas/apps/metacity/window_keybindings/raise" type="string">
+		<stringvalue>&lt;Mod4&gt;Up</stringvalue>
+	</entry>
+	<entry name="move_to_workspace_up" mtime="1257034806" schema="/schemas/apps/metacity/window_keybindings/move_to_workspace_up" type="string">
+		<stringvalue>&lt;Shift&gt;&lt;Mod4&gt;Up</stringvalue>
+	</entry>
+	<entry name="move_to_workspace_right" mtime="1257034806" schema="/schemas/apps/metacity/window_keybindings/move_to_workspace_right" type="string">
+		<stringvalue>&lt;Shift&gt;&lt;Mod4&gt;Right</stringvalue>
+	</entry>
+	<entry name="move_to_workspace_left" mtime="1257034806" schema="/schemas/apps/metacity/window_keybindings/move_to_workspace_left" type="string">
+		<stringvalue>&lt;Shift&gt;&lt;Mod4&gt;Left</stringvalue>
+	</entry>
+	<entry name="move_to_workspace_down" mtime="1257034806" schema="/schemas/apps/metacity/window_keybindings/move_to_workspace_down" type="string">
+		<stringvalue>&lt;Shift&gt;&lt;Mod4&gt;Down</stringvalue>
+	</entry>
+	<entry name="move_to_workspace_9" mtime="1257034806" schema="/schemas/apps/metacity/window_keybindings/move_to_workspace_9" type="string">
+		<stringvalue>&lt;Shift&gt;&lt;Mod4&gt;parenleft</stringvalue>
+	</entry>
+	<entry name="move_to_workspace_8" mtime="1257034806" schema="/schemas/apps/metacity/window_keybindings/move_to_workspace_8" type="string">
+		<stringvalue>&lt;Shift&gt;&lt;Mod4&gt;asterisk</stringvalue>
+	</entry>
+	<entry name="move_to_workspace_7" mtime="1257034806" schema="/schemas/apps/metacity/window_keybindings/move_to_workspace_7" type="string">
+		<stringvalue>&lt;Shift&gt;&lt;Mod4&gt;ampersand</stringvalue>
+	</entry>
+	<entry name="move_to_workspace_6" mtime="1257034806" schema="/schemas/apps/metacity/window_keybindings/move_to_workspace_6" type="string">
+		<stringvalue>&lt;Shift&gt;&lt;Mod4&gt;asciicircum</stringvalue>
+	</entry>
+	<entry name="move_to_workspace_5" mtime="1257034806" schema="/schemas/apps/metacity/window_keybindings/move_to_workspace_5" type="string">
+		<stringvalue>&lt;Shift&gt;&lt;Mod4&gt;percent</stringvalue>
+	</entry>
+	<entry name="move_to_workspace_4" mtime="1257034806" schema="/schemas/apps/metacity/window_keybindings/move_to_workspace_4" type="string">
+		<stringvalue>&lt;Shift&gt;&lt;Mod4&gt;dollar</stringvalue>
+	</entry>
+	<entry name="move_to_workspace_3" mtime="1257034806" schema="/schemas/apps/metacity/window_keybindings/move_to_workspace_3" type="string">
+		<stringvalue>&lt;Shift&gt;&lt;Mod4&gt;numbersign</stringvalue>
+	</entry>
+	<entry name="move_to_workspace_2" mtime="1257034806" schema="/schemas/apps/metacity/window_keybindings/move_to_workspace_2" type="string">
+		<stringvalue>&lt;Shift&gt;&lt;Mod4&gt;at</stringvalue>
+	</entry>
+	<entry name="move_to_workspace_10" mtime="1257034806" schema="/schemas/apps/metacity/window_keybindings/move_to_workspace_10" type="string">
+		<stringvalue>&lt;Shift&gt;&lt;Mod4&gt;parenright</stringvalue>
+	</entry>
+	<entry name="move_to_workspace_1" mtime="1257034806" schema="/schemas/apps/metacity/window_keybindings/move_to_workspace_1" type="string">
+		<stringvalue>&lt;Shift&gt;&lt;Mod4&gt;exclam</stringvalue>
+	</entry>
+	<entry name="minimize" mtime="1257034806" schema="/schemas/apps/metacity/window_keybindings/minimize" type="string">
+		<stringvalue>&lt;Mod4&gt;Home</stringvalue>
+	</entry>
+	<entry name="lower" mtime="1257034806" schema="/schemas/apps/metacity/window_keybindings/lower" type="string">
+		<stringvalue>&lt;Mod4&gt;Down</stringvalue>
+	</entry>
+	<entry name="close" mtime="1257034806" schema="/schemas/apps/metacity/window_keybindings/close" type="string">
+		<stringvalue>&lt;Mod4&gt;F4</stringvalue>
+	</entry>
+	<entry name="begin_resize" mtime="1257034806" schema="/schemas/apps/metacity/window_keybindings/begin_resize" type="string">
+		<stringvalue></stringvalue>
+	</entry>
+	<entry name="begin_move" mtime="1257034806" schema="/schemas/apps/metacity/window_keybindings/begin_move" type="string">
+		<stringvalue></stringvalue>
+	</entry>
+	<entry name="activate_window_menu" mtime="1257034806" schema="/schemas/apps/metacity/window_keybindings/activate_window_menu" type="string">
+		<stringvalue>&lt;Mod4&gt;space</stringvalue>
+	</entry>
+</gconf>

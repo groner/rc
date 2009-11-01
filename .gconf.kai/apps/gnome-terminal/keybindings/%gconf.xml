@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="zoom_in" mtime="1257034806" schema="/schemas/apps/gnome-terminal/keybindings/zoom_in" type="string">
+		<stringvalue>&lt;Control&gt;equal</stringvalue>
+	</entry>
+	<entry name="help" mtime="1257034806" schema="/schemas/apps/gnome-terminal/keybindings/help" type="string">
+		<stringvalue>disabled</stringvalue>
+	</entry>
+</gconf>

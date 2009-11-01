@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="use_theme_colors" mtime="1257034806" schema="/schemas/apps/gnome-terminal/profiles/Default/use_theme_colors" type="bool" value="false"/>
+	<entry name="scrollback_lines" mtime="1257034806" schema="/schemas/apps/gnome-terminal/profiles/Default/scrollback_lines" type="int" value="5120"/>
+	<entry name="foreground_color" mtime="1257034806" schema="/schemas/apps/gnome-terminal/profiles/Default/foreground_color" type="string">
+		<stringvalue>#AAAAAAAAAAAA</stringvalue>
+	</entry>
+	<entry name="background_color" mtime="1257034806" schema="/schemas/apps/gnome-terminal/profiles/Default/background_color" type="string">
+		<stringvalue>#000000000000</stringvalue>
+	</entry>
+</gconf>

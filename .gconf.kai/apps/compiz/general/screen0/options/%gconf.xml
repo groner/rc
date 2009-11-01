@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="hsize" mtime="1257034806" schema="/schemas/apps/compiz/general/screen0/options/hsize" type="int" value="10"/>
+</gconf>

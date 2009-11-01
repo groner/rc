@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="mouse_button_modifier" mtime="1257034806" schema="/schemas/apps/metacity/general/mouse_button_modifier" type="string">
+		<stringvalue>&lt;Super&gt;</stringvalue>
+	</entry>
+	<entry name="focus_mode" mtime="1257034806" schema="/schemas/apps/metacity/general/focus_mode" type="string">
+		<stringvalue>sloppy</stringvalue>
+	</entry>
+</gconf>

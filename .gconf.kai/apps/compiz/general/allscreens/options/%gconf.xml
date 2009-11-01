@@ -1,0 +1,104 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="toggle_window_maximized_vertically_key" mtime="1257034806" schema="/schemas/apps/compiz/general/allscreens/options/toggle_window_maximized_vertically_key" type="string">
+		<stringvalue>&lt;Super&gt;Next</stringvalue>
+	</entry>
+	<entry name="toggle_window_maximized_horizontally_key" mtime="1257034806" schema="/schemas/apps/compiz/general/allscreens/options/toggle_window_maximized_horizontally_key" type="string">
+		<stringvalue>&lt;Super&gt;End</stringvalue>
+	</entry>
+	<entry name="active_plugins" mtime="1257034806" schema="/schemas/apps/compiz/general/allscreens/options/active_plugins" type="list" ltype="string">
+		<li type="string">
+			<stringvalue>core</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>move</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>resize</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>place</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>decoration</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>animation</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>ccp</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>text</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>dbus</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>commands</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>mousepoll</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>svg</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>vpswitch</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>imgjpeg</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>png</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>extrawm</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>video</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>session</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>workarounds</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>resizeinfo</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>regex</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>neg</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>gnomecompat</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>fade</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>snap</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>cube</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>expo</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>scale</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>ezoom</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>staticswitcher</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>scaleaddon</stringvalue>
+		</li>
+	</entry>
+</gconf>

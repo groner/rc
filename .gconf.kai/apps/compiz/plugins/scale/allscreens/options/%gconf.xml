@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="key_bindings_toggle" mtime="1257034806" schema="/schemas/apps/compiz/plugins/scale/allscreens/options/key_bindings_toggle" type="bool" value="true"/>
+</gconf>

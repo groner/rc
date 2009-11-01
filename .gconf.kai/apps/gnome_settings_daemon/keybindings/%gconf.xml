@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="screensaver" mtime="1257034806" schema="/schemas/apps/gnome_settings_daemon/keybindings/screensaver" type="string">
+		<stringvalue></stringvalue>
+	</entry>
+</gconf>
