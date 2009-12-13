@@ -5,3 +5,4 @@ set guioptions-=T
 colorscheme ir_black
 
 filetype plugin on
+filetype indent on
