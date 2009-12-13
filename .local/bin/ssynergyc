@@ -1,0 +1,61 @@
+#!/bin/bash
+
+# TODO: Detect the synergy address
+
+synergyc_opts=(
+    "--display :0"
+    "--no-restart"
+    "--no-daemon"
+    "--debug WARNING"
+)
+
+EX_USAGE=64
+
+rport="24801"
+synergy_address=localhost:24800
+quiet=
+
+usage() {
+    if [ -n "$1" ]; then
+        echo "unknown option '$1'" >&2
+    fi
+    echo "usage: ${0##*/} [-q] [-c] [-p RPORT] HOST [SYNERGYC-OPTIONS]" >&2
+    echo "  RPORT is $rport" >&2
+    echo "  SYNERGYC-OPTIONS are (use -c to clear)" >&2
+    echo "  -q to be quiet (ssh -q as well)"
+    for opt in "${synergyc_opts[@]}"; do
+        echo "    $opt" >&2
+    done
+
+    exit $EX_USAGE
+}
+
+while [ ${OPTIND-0} -lt $# ]; do
+    if ! getopts ":p:cq" opt; then
+        break
+    fi
+    case "$opt" in
+        p) rport=$OPTARG ;;
+        c) synergyc_opts=() ;;
+        q) quiet=true ;;
+        ?) usage "$OPTARG" ;;
+    esac
+
+done
+shift $(( $OPTIND - 1 ))
+
+if [ $# -lt 1 ]; then
+    usage
+fi
+
+host=$1; shift
+
+if test ${synergy_address%:*} = localhost &&
+    ! : 2>/dev/null >/dev/tcp/${synergy_address/://}; then
+    test -z "$quiet" &&
+        echo "Starting synergy server at $synergy_address"
+    synergys -1 -d WARNING -a $synergy_address
+fi
+
+ssh ${quiet:+-q} -R $rport:$synergy_address -f "$host" synergyc "${synergyc_opts[@]}" "$@" ":${rport}"
+
