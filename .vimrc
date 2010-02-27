@@ -6,3 +6,5 @@ colorscheme ir_black
 
 filetype plugin on
 filetype indent on
+
+runtime macros/matchit.vim
