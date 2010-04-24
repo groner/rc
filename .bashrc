@@ -105,6 +105,13 @@ fi
 export LESS='-iSRX --shift 12'
 
 homegit() { git --git-dir=$HOME/.homegit --work-tree=$HOME "$@"; }
+if type _git >/dev/null 2>&1; then
+    _homegit() { __git_dir=$HOME/.homegit _git; }
+    if _git_complete_spec=$( complete -p git 2>/dev/null ); then
+        ${_git_complete_spec//git/homegit}
+    fi
+    unset _git_complete_spec
+fi
 
 PROMPT_COMMAND='for cmd in "${PROMPT_COMMANDS[@]}"; do eval "$cmd"; done'
 PROMPT_COMMANDS+=("history -a")
