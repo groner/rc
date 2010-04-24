@@ -15,6 +15,7 @@ HISTCONTROL=ignoreboth
 shopt -s histappend
 
 # for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
+HISTSIZE=10000
 
 # check the window size after each command and, if necessary,
 # update the values of LINES and COLUMNS.
@@ -101,8 +102,9 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
     . /etc/bash_completion
 fi
 
-export LESS='-iSRX'
+export LESS='-iSRX --shift 12'
 
 homegit() { git --git-dir=$HOME/.homegit --work-tree=$HOME "$@"; }
 
-
+PROMPT_COMMAND='for cmd in "${PROMPT_COMMANDS[@]}"; do eval "$cmd"; done'
+PROMPT_COMMANDS+=("history -a")
