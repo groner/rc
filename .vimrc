@@ -9,4 +9,7 @@ endif
 filetype plugin on
 filetype indent on
 
+autocmd FileType html\|xhtml\|xml setl sw=2
+autocmd FileType rst setl sw=3
+
 runtime macros/matchit.vim
