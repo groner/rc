@@ -4,4 +4,5 @@
 
 [core]
         excludesfile = /home/kai/.gitignore
+	pager = less -X -F
 
