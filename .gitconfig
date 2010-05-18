@@ -1,0 +1,7 @@
+[user]
+        name = Kai Groner
+        email = kai@gronr.com
+
+[core]
+        excludesfile = /home/kai/.gitignore
+
