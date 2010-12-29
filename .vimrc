@@ -20,5 +20,7 @@ augroup kai
     autocmd FileType html\|xhtml\|xml syn sync fromstart
     autocmd FileType rst setl sw=3
     autocmd FileType python syn sync fromstart
+    " Use htmljinja because I use jinja in my projects
+    autocmd BufNewFile,BufRead *.html if &ft == 'htmldjango' | setl ft=htmljinja | endif
 
 runtime macros/matchit.vim
