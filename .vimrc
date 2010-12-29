@@ -17,6 +17,8 @@ filetype indent on
 augroup kai
     autocmd!
     autocmd FileType html\|xhtml\|xml setl sw=2
+    autocmd FileType html\|xhtml\|xml syn sync fromstart
     autocmd FileType rst setl sw=3
+    autocmd FileType python syn sync fromstart
 
 runtime macros/matchit.vim
