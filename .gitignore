@@ -1,2 +1,7 @@
 .sw?
 .*.sw?
+
+# I often have a virtualenv and/or a symlink to the activate script in the root
+# of a python project.  This is my own convention.
+/.virtualenv
+/activate
