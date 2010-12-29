@@ -5,6 +5,8 @@ set ai sm nowrap et ic ruler number sw=4 hidden
 set guioptions-=m
 set guioptions-=T
 
+set suffixes+=.db
+
 if &t_Co >= 256 || has("gui_running")
     colorscheme blackboard
 endif
